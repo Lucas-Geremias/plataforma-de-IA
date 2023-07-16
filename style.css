@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --gray-01: #f8fafc;
+  --gray-02: #e2e8f0;
+  --gray-03: #94a3b8;
+  --gray-04: #334155;
+  --gray-05: #1e293b;
+  --gray-06: #0f172a;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: url(public/images/imgbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  width: 1216px;
+  padding: 60px;
+  border-radius: 32px;
+  border: 1px solid var(--gray-04, #334155);
+  background: rgba(2, 6, 23, 0.8);
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 67px 112px;
+  padding: 60px;
+}
+.img {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-05, #1e293b);
+  background: var(--gray-06, #0f172a);
+  justify-content: center;
+  align-items: center;
+  margin: 0 576px 24px 576px;
+}
+.content h2 {
+  color: var(--gray-01, #f8fafc);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 304px;
+}
+.cards a {
+  text-decoration: none;
+  display: flex;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0f172a);
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+
+  color: var(--gray-02, #e2e8f0);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+#img-border {
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-05, #1e293b);
+  background: var(--gray-06, #0f172a);
+}
+.divider {
+  height: 1px;
+  border-radius: 32px;
+  border: 1px solid var(--gray-04, #334155);
+  background: rgba(2, 6, 23, 0.8);
+  margin-top: 40px;
+}
+.inlineBlock{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.send{
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+    background: var(--gray-06, #0F172A);
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.send p{
+  color: var(--gray-02, #E2E8F0);
+  font-size: 18px;
+  font-weight: 400;
+}
+.imgSend{
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0F172A);
+  align-items: flex-start;
+  gap: 8px;
+}
+
